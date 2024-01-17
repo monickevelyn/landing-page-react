@@ -1,5 +1,5 @@
 import './SectionTwo.css'
-import imagemprincipal from '/public/img/img-section-one.png'
+import imagemprincipal from '../../../public/img-section-one.png'
 
 export default function SectionTwo(){
     return(

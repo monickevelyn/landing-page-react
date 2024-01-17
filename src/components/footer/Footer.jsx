@@ -1,6 +1,6 @@
 import './Footer.css'
-import twitter from '/public/img/twitter.svg'
-import linkedin from '/public/img/twitter.svg'
+import twitter from '../../../public/twitter.svg'
+import linkedin from '../../../public/linkedin.svg'
 
 export default function Footer(){
     return(

@@ -1,5 +1,5 @@
 import PropType from 'prop-types'
-import seta from '/public/img/seta.svg'
+import seta from '../../../public/seta.svg'
 
 export default function Button({ conteudo, classe }) {
   return (

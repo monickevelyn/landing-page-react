@@ -1,6 +1,6 @@
 import PropType from 'prop-types'
 import './ListaItem.css'
-import raio from '/public/img/raio.svg'
+import raio from '../../../public/raio.svg'
 
 // componente com a base de cada item
 function Item({ titulo, paragrafo }){
