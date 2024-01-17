@@ -1,13 +1,11 @@
 import Sections from "../Sections";
 import Button from "../Button";
-import Fade from 'react-reveal/Fade';
 
 import './SectionFor.css'
 
 export default function SectionFor() {
   return (
     <>
-    <Fade left>
         <section className="section-for">
           <Sections
             classe="div-titulo-section-for"
@@ -17,7 +15,6 @@ export default function SectionFor() {
 
           <Button classe="btn-section-for" conteudo="Start now" />
         </section>
-        </Fade>
     </>
   );
 }

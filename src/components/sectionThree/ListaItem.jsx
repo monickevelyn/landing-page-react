@@ -8,7 +8,7 @@ function Item({ titulo, paragrafo }){
         <>
             <div className="lista-item">
                 <span className="div-icone-raio">
-                  <img src="/public/img/raio.svg" alt="icone-de-raio" className="icone-raio" />
+                  <img src="/src/assets/img/raio.svg" alt="icone-de-raio" className="icone-raio" />
                 </span>
                 <h3>{titulo}</h3>
                 <p>{paragrafo}</p>

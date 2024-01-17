@@ -1,11 +1,9 @@
 import Button from "../Button";
 import './SectionOne.css'
-import Fade from 'react-reveal/Fade';
 
 export default function SectionOne() {
   return (
     <>
-    <Fade left>
       <section className="section-one">
           <h1>All-in-one Finance App you always wanted</h1>
           <p>
@@ -14,7 +12,6 @@ export default function SectionOne() {
           </p>
           <Button classe="btn-section-one" conteudo="Get Started" />
         </section>
-    </Fade>
     </>
   );
 }
