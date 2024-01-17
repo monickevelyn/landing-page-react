@@ -5,7 +5,7 @@ export default function SectionOne() {
   return (
     <>
       <section className="section-one">
-          <h1>All-in-one Finance App you always wanted</h1>
+          <h1>Finance App</h1>
           <p>
             Gain control of your finances with our all-in-one finance app. Track
             your spending, find investment opportunities, and learn.
