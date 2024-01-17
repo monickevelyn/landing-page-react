@@ -1,6 +1,6 @@
 import PropType from 'prop-types'
-
 import './ListaItem.css'
+import raio from '/public/img/raio.svg'
 
 // componente com a base de cada item
 function Item({ titulo, paragrafo }){
@@ -8,7 +8,7 @@ function Item({ titulo, paragrafo }){
         <>
             <div className="lista-item">
                 <span className="div-icone-raio">
-                  <img src="/src/assets/img/raio.svg" alt="icone-de-raio" className="icone-raio" />
+                  <img src={raio} alt="icone-de-raio" className="icone-raio" />
                 </span>
                 <h3>{titulo}</h3>
                 <p>{paragrafo}</p>
