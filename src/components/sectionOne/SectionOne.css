@@ -116,9 +116,9 @@
     }
     .section-one h1{
         width: 320px;    
-        height: 80px;
-        font-size: 25px;
-        line-height: 30px;
+        height: 100px;
+        font-size: 28px;
+        line-height: 20px;
     }       
     .section-one P{
         width: 300px;
