@@ -1,0 +1,132 @@
+.section-one{
+    display: flex;
+    height: 248px;
+    padding: 0px 57.13px 0px 57.33px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-one h1{
+    display: flex;
+    width: 900px;
+    height: 120px;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px; /* 100% */
+
+    background: linear-gradient(170deg, #FFF 0.77%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}   
+
+.section-one P{
+    display: flex;
+    width: 503.93px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #D1D5DB;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.btn-section-one{
+    display: flex;
+    height: 40px;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: -0.2px;
+    cursor: pointer;
+
+    color: #ffff;
+    border-radius: 9999px;
+    background: #9333EA;
+}
+
+.btn-section-one:hover {
+    background: #772ebb;
+}
+
+@media only screen and (max-width: 780px){
+    .section-one{
+        width: 100%;
+    }    
+    .section-one h1{
+        width: 700px;    
+        font-size: 45px;
+    }       
+    .section-one P{
+        width: 500px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .btn-section-one{
+        font-size: 14px;
+    }    
+}
+@media only screen and (max-width: 680px){
+    .section-one h1{
+        width: 500px;    
+        font-size: 40px;
+    }       
+    .section-one P{
+        width: 400px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .btn-section-one{
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width: 540px){
+    .section-one{       
+        max-height: 500px;
+    }
+    .section-one h1{
+        width: 340px;    
+        font-size: 30px;
+    }       
+    .section-one P{
+        width: 300px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .btn-section-one{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 370px){
+    .section-one{       
+        max-height: 500px;
+    }
+    .section-one h1{
+        width: 320px;    
+        height: 80px;
+        font-size: 25px;
+        line-height: 30px;
+    }       
+    .section-one P{
+        width: 300px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .btn-section-one{
+        font-size: 13px;
+    }
+}
